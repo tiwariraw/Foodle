@@ -54,10 +54,16 @@ li {
     margin-right: 2.5rem;
 }
 
+.spng-cart {
+    position: absolute;
+    top: -18px;
+    left: -12px;
+}
+
 .cart-items {
     position: absolute;
-    top: -8px;
-    left: 30px;
+    top: -25px;
+    left: 22px;
     font-size: 1.25rem;
 }
 

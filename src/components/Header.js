@@ -46,7 +46,7 @@ const Header = () => {
                 <li><Link to="/contact" className='nav-link'>Contact Us</Link></li>
                 <li className='cart'>
                     <Link to="/cart" className='cart-link'>
-                        <i className="fa-solid fa-cart-shopping"></i>
+                        <i className='spng-cart'>🛒</i>
                         <div className='cart-items'>{cartItems.length}</div>
                     </Link>
                 </li>
