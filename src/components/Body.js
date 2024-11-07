@@ -31,7 +31,7 @@ const Body = () => {
             console.log(json);
 
             // optional chaining
-            const arr1 = json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+            const arr1 = json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 
             console.log(arr1);
             setRestaurantsArray(arr1);
